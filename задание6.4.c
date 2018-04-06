@@ -6,7 +6,7 @@ int main()
 	char operation;
 
 	printf("Type your expression\n");
-	while (oper != 'E') {
+	while (operation != 'E') {
 		scanf("%f %c", &sz, &operation);
 		switch (operation) {
 		case 'S':
